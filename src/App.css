@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.Column-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.Header-container img {
+  height: 70px;
+  margin: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  .Column-container {
+    flex-direction: column;
+  }
+}
