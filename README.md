@@ -22,7 +22,7 @@ There were extra things I added in:
 - I added in a CI/CD process via Travis to build the react app (which checks for build errors) and then delpoys to Github Pages, so I could focus more on building the application itself.
 
 ### Things I learned from this project
-This project was a great example of how important tools like Redux are when handling state across multiple components in an application. This is especially crucial as the complexity of the application increases. For the sake of this project, as it was not too complex, I opted for just prop-drilling callbacks as I didn't want to bloat the project with more libraries than needed.
+This project was a great example of how important tools like Redux are when handling state across multiple components in an application. This is especially crucial as the complexity of the application increases. For the sake of this project, as it was not too complex, I opted for just prop-drilling callbacks as I didn't want to bloat the project with more libraries than 
 
 ## Github Pages Demo
 [Click here for the end result!](https://imilisav.github.io/shopify-frontend-submission/)
