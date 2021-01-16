@@ -1,57 +1,57 @@
 .Card-container {
-    display: flex;
-    flex-direction: row;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    margin: 0 1rem 1rem 1rem;
-    background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 5px solid lightgray;
+  margin: 0 1rem 1rem 1rem;
+  background-color: azure;
 }
 
 .Card-container img {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .Button-green {
-    font-size: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-    background-color: green;
-    color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
 }
 
 .Button-green:disabled {
-    font-size: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-    background-color: gray;
-    color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
 }
 
 .Button-red {
-    font-size: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-    background-color: darkred;
-    color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(202, 12, 12);
+  color: white;
 }
 
 .Card-content {
-    width: 100%;
-    margin: 1rem 1rem;
-    text-align: left;
+  width: 100%;
+  margin: 1rem 1rem;
+  text-align: left;
 }
 
 .Card-content h2 {
-    margin: 0;
+  margin: 0;
 }
 
 @media (max-width: 1000px) {
-    .Card-container {
-        flex-direction: column;
-        width: 300px;
-    }
+  .Card-container {
+    flex-direction: column;
+    width: 300px;
+  }
 }
