@@ -23,3 +23,9 @@ There were extra things I added in:
 ### Things I learned from this project
 This project helped me understand how important React and Redux are since these tools allow us to handle multiple components in an application which makes a big difference when the application is scaled and complexity increases. 
 
+# Netlify Demo : https://sleepy-lumiere-87d21b.netlify.app/
+
+# Contact
+
+Email: rafi981@my.yorku.ca
+Linkedin: https://www.linkedin.com/in/rafi-maleque-bb1954192/
